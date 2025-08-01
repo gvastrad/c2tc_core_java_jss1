@@ -1,4 +1,4 @@
-package com.tnsif.inheritance;
+package com.tnsif.inheritance.slinheritance;
 
 public class Student extends Citizen{
 	private int rollNo;
