@@ -5,7 +5,7 @@ public class Student extends Citizen {
 	private String collegeName;
 	
 	
-	public Student(String name, String address, long adharNumber, long phNo,int rollNo,String collegeName) {
+	public  Student(String name, String address, long adharNumber, long phNo,int rollNo,String collegeName) {
 		super(name, address, adharNumber, phNo);
 		this.rollNo=rollNo;
 		this.collegeName=collegeName;

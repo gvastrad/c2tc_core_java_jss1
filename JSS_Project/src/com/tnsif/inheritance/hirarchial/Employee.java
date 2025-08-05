@@ -4,6 +4,12 @@ public class Employee extends Citizen{
 	private int eid;
 	private float salary;
 	
+	
+	public Employee() {
+	}
+	static void m1() {
+		
+	}
 	public Employee(int eid, float salary) {
 		this.eid = eid;
 		this.salary = salary;
@@ -27,10 +33,13 @@ public class Employee extends Citizen{
 	}
 	@Override
 	public String toString() {
+		m1();
 		return "Employee [eid=" + eid + ", salary=" + salary + ", getName()=" + getName() + ", getAddress()="
 				+ getAddress() + ", getPhNo()=" + getPhNo() + "]";
 	}
-	
+	static {
+		System.out.println("Hi");
+	}
 	
 
 }
