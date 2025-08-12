@@ -1,6 +1,6 @@
 package com.tnsif.packageone;
 
-public class Person {
+public  class Person {
 private String personName;
 private String personCity;
 private int personAge;

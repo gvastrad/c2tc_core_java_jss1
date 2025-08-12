@@ -1,7 +1,6 @@
 package com.tnsif.packageone;
 
 public class Base {
-	
 	int varDefault=10;
 	public int varPublic=20;
 	private int varPrivate=30;
