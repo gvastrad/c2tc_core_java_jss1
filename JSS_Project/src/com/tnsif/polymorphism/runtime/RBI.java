@@ -6,5 +6,5 @@ public class RBI {
 
    protected float getRateOfInterest() {
 	return ROI;
-   }
+   }   
 }
