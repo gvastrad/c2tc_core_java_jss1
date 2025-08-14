@@ -27,5 +27,4 @@ public class ArrayOfObjectsDemo {
 				System.out.println("Element at " + i + " : " + arr[i].getRollNo()+ " " + arr[i].getName());
 
 	}
-
 }
