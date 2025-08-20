@@ -7,6 +7,8 @@ public class ArraysDemo {
 	public static void main(String[] args) {
 		// Get the Array
 	int intArr[] = { 10, 20, 15, 22, 35, 18 , 14 };
+	int a[];
+	int[] b;
 
    //To print all the elements in the array before sorting
 	System.out.println("Array elements are "+Arrays.toString(intArr));
