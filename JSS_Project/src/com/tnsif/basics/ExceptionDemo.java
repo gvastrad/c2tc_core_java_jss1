@@ -9,7 +9,7 @@ public class ExceptionDemo {
 		try {
 		int x=42/d;
 		a[4]=30;
-		
+	Collection
 		}
 		catch(ArithmeticException e) {
 			System.out.println("Cant divide a number by zero");
